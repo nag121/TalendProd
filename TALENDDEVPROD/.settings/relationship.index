@@ -9,10 +9,6 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_qgqLoL8fEemfD5elIZxOlQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
