@@ -1,5 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="talend"/>
+    <contextParameter comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="Sourcefilepath" prompt="Sourcefilepath?" promptNeeded="false" type="id_String" value="C:/Users/student/Desktop/Talendout/"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="id.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="talend"/>
+    <contextParameter comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="Sourcefilepath" prompt="Sourcefilepath?" promptNeeded="false" type="id_String" value="C:/Users/student/Desktop/Talendout/"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="id.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="talend"/>
+    <contextParameter comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="root"/>
+    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="Sourcefilepath" prompt="Sourcefilepath?" promptNeeded="false" type="id_String" value="C:/Users/student/Desktop/Talendout/"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="id.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="Qa">
     <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="talend"/>
     <contextParameter comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="_tCD78L8gEemfD5elIZxOlQ" type="id_String" value="root"/>
@@ -231,13 +261,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c68519b3-5ab3-4685-8ac6-7a297b04df52"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UakRMDvS3xC3z0vhOru1mOk5s5mZ4GvjAinrXftzSpeYBWbXZDnCqDOYcReFs6Igkdi8wZpTvkuq
-70cc4QT3pA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_aad3d245-102f-4f87-9145-a0bc0bd9a83f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Sd7nPPMKuSwbR7HwZzwGStog2curf83OlRDOd0XEhDXS1uEP/bvXwyfbv6EzUpwDWIpl2koHem45
-bZNNOmCW3w==</DigestValue></Reference></SignedInfo><SignatureValue>TnBWlM4IW1JYDOix8jvpzYS7tkIlDRLYcgQb/iOXWHokEqBMgbLwTga5L8UI1tketLyHGS3NqGxd
-pJCBiSBmusWLZnbrj+oqTr0ektuCld2+s0yLuDrBrxqMUpYGMvRkMkIb+WJ72uUHjtpdxn6ptjmp
-r9fZb8uYqkVWj0lLezUXMV2fAh90oBmAWjLCz9LtZNhfnmkkNGwxN8s0gOT0B5k4U5aH8yqErHNo
-cMC0H+zLrPvw892ZIQ8T0tMcqYONM4nCFtWyZald1sMq8axGWO69EHdb05OyGoRPAox/RN/DGiYR
-LtEBLmABQIaq6vB+stloRDR+RQJXz3z5kbwb0w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_47547213-dcfd-4342-b92f-231e2d2be174"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S3MrfMAwwkUrWV2dHmHJKTclnf1mnd29cw0c92UfK9dcw/qD9D+ciAMz3rfKDGsAj4royB+REW7e
+2bICAJkpJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_66022a6a-1c1c-4cdd-89e2-5c9114c64d8c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6ADHHsyWE6IVeHlUxmtgPKItA+AnHPSiqBW05X7ytgjHlcD9dhsCGtuWmqtbEfbJuDQHSwP00X9M
+XgojSEFqZw==</DigestValue></Reference></SignedInfo><SignatureValue>b/ixMKtiKoli4HjKPw4bQEQOPodX5BaLPoa1cfHIdAQcHvILXpVcmUqFkv2yh+VT1isGhN6f2N6+
+M7A7j/Q6bO/k/r6gHWzTHI3OAlR5IB887TY2TP8B/1z3z6Cg/0Qf4u82m17gwi5n8K/NZEYpMyJT
+MkpbQO3p0w+rrcqVbTvq6FPg9O0nhyBbQFTJc0PPClyu5SJLQxieRp2YwlobDQni5ksZL7wK8ZJg
+wwPT2q/vPJy+mbPRb5/pvOeAFWSeCmvH6ih/kQDXrIVnzE+yD58DEPGX/w2HDwF/Z2NBKH25tD4p
+dtNhpdeNMHso8wxHMOHtrKEQzkU2iFj7XUJx4Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -261,4 +291,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_aad3d245-102f-4f87-9145-a0bc0bd9a83f" Target="#_c68519b3-5ab3-4685-8ac6-7a297b04df52"><Timestamp>2019-08-15 05:58:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_66022a6a-1c1c-4cdd-89e2-5c9114c64d8c" Target="#_47547213-dcfd-4342-b92f-231e2d2be174"><Timestamp>2019-08-15 05:59:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
