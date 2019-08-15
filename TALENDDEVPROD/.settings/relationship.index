@@ -5,6 +5,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_tCD78L8gEemfD5elIZxOlQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_qgqLoL8fEemfD5elIZxOlQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
